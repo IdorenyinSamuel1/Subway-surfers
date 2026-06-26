@@ -421,7 +421,7 @@ h1 span {
 
 
 
-@media screen and (max-width: 1200px) {
+@media(max-width: 1200px) {
     header, .hero-section {
         padding-left: 40px;
         padding-right: 40px;
@@ -433,8 +433,7 @@ h1 span {
     }
 }
 
-@media screen and (max-width: 900px) {
-    /* Header layout switch */
+@media(max-width: 900px) {
     header {
         flex-direction: column;
         gap: 20px;
@@ -522,7 +521,7 @@ h1 span {
 }
 
 
-@media screen and (max-width: 480px) {
+@media(max-width: 480px) {
     h1, h1 span {
         font-size: 36px;
         line-height: 42px;
